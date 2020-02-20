@@ -1,0 +1,24 @@
+{
+  "author": "Viktor Leandersson",
+  "name": "formik-yup",
+  "version": "0.0.1",
+  "description": "Helpers for Formik with Yup validation",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.config.js --color",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {}
+}
