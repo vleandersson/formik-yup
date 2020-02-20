@@ -7,6 +7,15 @@
     "start": "webpack-dev-server --config webpack.dev.config.js --color",
     "build": "webpack --config webpack.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vleandersson/formik-yup"
+  },
+  "main": "dist/bundle.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "license": "MIT",
   "devDependencies": {
@@ -17,6 +26,7 @@
     "babel-loader": "^8.0.6",
     "formik": "^2.1.4",
     "jest": "^25.1.0",
+    "ts-loader": "^6.2.1",
     "typescript": "^3.5.3",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",

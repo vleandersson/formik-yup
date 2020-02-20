@@ -10,8 +10,14 @@ module.exports = {
         test: /\.tsx?$/,
         use: [
           {
-            loader: "babel-loader",
-            options: {}
+            loader: "ts-loader",
+            options: {
+              transpileOnly: false,
+              configFile: "tsconfig.json",
+              compilerOptions: {
+                outDir: "./dist"
+              }
+            }
           }
         ],
         exclude: /node_modules/
