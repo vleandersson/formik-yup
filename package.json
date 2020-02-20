@@ -1,7 +1,7 @@
 {
   "author": "Viktor Leandersson",
   "name": "formik-yup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helpers for Formik with Yup validation",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js --color",
