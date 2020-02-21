@@ -10,7 +10,8 @@ When Formik is performing its validation only errors will be returned and manage
 
 ### formikFieldApplyYupTransforms
 
-> **input**: `value: Value, form: FormikHelpers<any>, validationSchema: Schema, fieldName: string` > **return**: formatted value `Promise<formattedValue: Value>`
+> **input**: `value: Value, form: FormikHelpers<any>, validationSchema: Schema, fieldName: string`
+> **return**: formatted value `Promise<formattedValue: Value>`
 
 Value transform helper for a single field. Useful for applying transforms on, for example, `blur` or `click` events. This will modify the value internally, so no manual actions needs to be taken to make sure the form is up to date with the transforms.
 
@@ -33,7 +34,8 @@ Example usage (within a Formik field render):
 
 ### formikFormApplyYupTransforms
 
-> **input**: `values: Payload, form: FormikHelpers<Payload>, validationSchema: Schema` > **return** array of the formatted values and an hasErrors boolean: `Promise<[formattedValues, hasErrors]>`
+> **input**: `values: Payload, form: FormikHelpers<Payload>, validationSchema: Schema`
+> **return** array of the formatted values and an hasErrors boolean: `Promise<[formattedValues, hasErrors]>`
 
 Value transform helper for a the whole form. Useful for applying transforms on Formik `submit`. This will modify the value internally, so no manual actions needs to be taken to make sure the form is up to date with the transforms.
 
